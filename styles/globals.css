@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.bgr-linear-primary{
+    
+background: rgb(252,178,21);
+background: linear-gradient(180deg, rgba(252,178,21,1) 0%, rgba(248,118,8,1) 100%);
+}
+
+.bgr-image{
+    background-image: url("/images/background-sm.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
